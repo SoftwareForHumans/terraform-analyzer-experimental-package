@@ -1,14 +1,12 @@
-# Recovery of Software Architecture Models from Infrastructure-as-Code Specifications - replication package
+# Experimental package for the article _"From Terraform Scrips to Architecture Diagrams: An Empirical Study with Open-Source Maintainers"_
 
-### Content List
-
-* **\data_analysis**: This folder contains jupyter notebooks to analyse the collected data.
-Namely:
-  * _participants_characterization.ipynb_ used to analyse demographics and background of the respondents.
-  * _tool_analysis.ipnb_ used to analyse the data collected to evaluate the tool
+* **\analysis**: Jupyter notebooks with our analyses of the collected data.
+  * _participants_characterization.ipynb_: Analysis of the demographics and background of the respondents.
+  * _tool_analysis.ipnb_: Analysis of the survey form responses.
     
-* **collected\_data**: This folder contains the raw data collected in csv format (_raw_results.csv_). 
-    
-* In the root of the project can be found a pdf version of the questionnaire (terraform_software_architecture_extractor_survey.pdf). 
+* **\data**: Raw data collected in CSV format.
+  * _form_responses.csv_: Responses provided by participants througb our survey form.
+  * _github-projects.csv_: List of GitHub project names and processing step that they have reached.
 
+* **\survey_form.pdf**: Survey form in PDF format.
 
